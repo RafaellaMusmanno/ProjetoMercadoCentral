@@ -1,0 +1,231 @@
+Speaker 1
+É. Então grava o áudio aí 
+
+Speaker 2
+É eu tenho que ter provas contra ele 
+
+Speaker 1
+É isso aí. Aí se eu cometer algum crime aqui, vocês podem me processar, tá? É, então, a ideia vai ser a seguinte: cês vão ter um cadastro de produtos, aí agora vem a parte que eu não penso. E eu vou falar agora o número que vier na minha mente, que eu achar razoável. E o número que eu achar razoável é cinquenta produtos. Nossa Cês vão ter um, um, um sistema, tá? Com cinquenta produtos, beleza? 
+
+Speaker 2
+Que é um mercado, assim, pode ser- 
+
+Speaker 1
+É tipo um mercado, vamo- 
+
+Speaker 2
+Mas pode ser de, desde comida atééé, é produto de limpeza? 
+
+Speaker 1
+É. Tipo- 
+
+Speaker 2
+Um pão de açúcar 
+
+Speaker 1
+É, pode ser. 
+
+Speaker 2
+Um lanterna 
+
+Speaker 1
+Igual Guanabara, açaí, igual mercadinho da esquina, enfim. 
+
+Speaker 2
+Tá. 
+
+Speaker 1
+Só que tem um detalhe, tá? Esse mercado ele tem que ter nome, então tem que ser uma marca. 
+
+Speaker 2
+Claro. 
+
+Speaker 1
+Mas não é uma marca existente, cês vão criar a marca. 
+
+Speaker 2
+Tá. 
+
+Speaker 1
+Então cês vão criar um nome, criar uma logo, criar uma localização, simular um CNPJ. 
+
+Speaker 2
+Tá que isso. 
+
+Speaker 1
+Tá? E, e essas informações todas tem que, essas informações todas têm que tá na página, né? 
+
+Speaker 2
+Tá. 
+
+Speaker 1
+Então sempre no final das páginas lá, uma coisa que a gente chama de footer, né? 
+
+Speaker 2
+Footer. 
+
+Speaker 1
+Tá? Ele sempre tem ali um CNPJ, tal- 
+
+Speaker 2
+Tá 
+
+Speaker 1
+...qual é o nome da empresa, tá? Uma boa prática, né? Os produtos, eles não precisam ficar necessariamente exibidos, não, tá? Pode começar sem exibir o produto, tá? E aí lembra que a gente ia, aprendeu toggle e tudo mais, né? É, então cês vão ter um input pra buscar o produto, tá? Só que tem um detalhe, esse produto ele pode ser buscado pelo nome, pode ser buscado pelo código de barras, enfim, ele vai retornar o produto, o preço do produto e tudo mais, tá? 
+
+Speaker 1
+Retornou o produto e o preço do produto, ele vai ter que ter um botão, tipo adicionar o produto ao carrinho. E aí vocês vão ter que cal-- jogar as coisas no carrinho e calcular o preço final. Quando a pessoa finalizar a compra, ela tem que-- não vou fazer isso, não. Mas o que eu ia pedir é: ela tem que digitar a for-- é, ela tem que colo-- escolher, né, no caso, não digitar, cês vão botar ali um input radio lá, por exemplo, pra, pras bolinhas, né? É, que a gente fez esse tipo de atividade, né? E ela vai escolher ali, por exemplo, ou pode ser, sei lá, um link, ah, né? 
+
+Speaker 1
+Ela vai, ela iria escolher, por exemplo, a forma de pagamento. Se fosse Pix, ela ia gerar um código aleatório lá, que pode ser fixo, não tem problema, tá? Ou pode ser aleatório também. Só cês verem uma função lá de aleatorizar algumas coisas. A gente não viu especificamente isso, mas se vocês derem um Google rapidinho cês acham, né? É, eee aí ele poderia gerar um QR-- um código do Pix ou poderia gerar um formulário com os cartões, com, com os dados do cartão. E aí, eu ia pedir não, eu tô pedindo isso. 
+
+Speaker 2
+Hã 
+
+Speaker 1
+Eu, eu vou pedir, porque não faz sentido não ter isso, né? E aí, é, conforme a pessoa digitar ali, né, ele vai verificar se é válido ou se não é válido. 
+
+Speaker 2
+Uhum. 
+
+Speaker 1
+Porque se o, se o número do cartão tiver 16 dígitos, né, por exemplo, né, se o, o length, né, da, da string for diferente de dezesseis, não é válido, concorda? Só isso. Tipo de-- é, só essa verifica-verificação básica, tá? Basicamente, quando eu for testar a, o sistema de vocês, eu vou colocar 15 dígitos lá e vou ver se passa, né? É, a pessoa também precisa digitar a data, também precisa ter quatro dígitos e o código de segurança que precisa ter três dígitos. Cês não vão, é, verificar de fato viabilidade, tipo assim, se a-- não vão fazer uma conexão com o sistema do banco, não é isso. 
+
+Speaker 1
+Cês só vão ver se tem a quantidade de dígitos que precisa ter, beleza? É, então Pix, cartão, só, não aceita dinheiro. 
+
+Speaker 2
+Isso já é uma segunda página. Já- 
+
+Speaker 1
+É 
+
+Speaker 2
+...tá, a gente já tá na quarta página 
+
+Speaker 1
+Já é, já é a página específica do carrinho, tá? É, então, a, o, o site- 
+
+Speaker 2
+E cada, hã, cada objeto vai ter uma-- porque cê falou que quando você abrir o site não vai ter- 
+
+Speaker 1
+Não, não, eu ia falar disso agora. 
+
+Speaker 2
+É, tá 
+
+Speaker 1
+O site ele pode exibir os produtos ali na página. 
+
+Speaker 2
+Sim. 
+
+Speaker 1
+Ele pode, não tem problema. Só que a pessoa também tem que ter a, a função de copiar, de escrever ali, perdão, no input, os produtos e ele exibir só o produto que ela quer, tá? 
+
+Speaker 2
+Tá. E aí tem que mostrar com foto e descrição do produto. 
+
+Speaker 1
+É, com a dica inteira ali, tudo que tem ali no produto vai tá ali, entendeu? 
+
+Speaker 2
+Ter uma barra de pesquisa. 
+
+Speaker 1
+Uma barra de pesquisa, exatamente. Barra de pesquisa. 
+
+Speaker 2
+E a barra de pesquisa tem que funcionar. 
+
+Speaker 1
+É, barra de pesquisa é uma das coisas principais, inclusive, que vocês vão fazer nesse site, tá? 
+
+Speaker 2
+A gente aprendeu isso? 
+
+Speaker 1
+Sim e não. Cês aprenderam a usar o toggle e aprenderam a capturar o valor de, de um input. Junto uma coisa com a outra, entendeu? Então não é que vocês aprenderam especificamente barra de pesquisa, né? Mas é um, é uma chave central. Diga-se de passagem, tá? Em todas as outras turmas, é, eu sempre pedi barra de pesquisa e sempre deu certo. O que eu que- O que eu quero dizer é: não é tão difícil assim, tá? Outra coisa importante é, que eu-- não deu tempo, tá? 
+
+Speaker 1
+Desculpa, gente, não tô fazendo por mal. Eu tô, eu tô tentando deixar vocês com, com boa base, tá? Então pesquisem arroba mídia pra responsividade de página. Pra sorte de vocês, a Rafaela já sabe fazer isso, né? Mas pesquisem, tá? Não é nada difícil, é bem tranquilo de entender, tá? Só pra, porque a página tem que ser responsiva e eu também vou testar isso, tá? Todos os produtos devem ter fotos, todos. Todos os pro-produtos devem ter o nome do produto, todos os produtos devem ter preço, todos os produtos devem ter um ID do produto, um código do produto, né? 
+
+Speaker 1
+Deixa eu ver se faltou alguma coisa. Acredito que não. É, e, e talvez esse, esse projeto ele, ele tem um nível de dificuldade em termos de JavaScript maior do que os outros que eu já fiz, tá? Mas em termos de HTML e CSS, ele é bem tranquilo, porque basicamente é uma página com produtos estáticos ali, né? Não vai ter menu, normalmente a gente usa uma coisa chamada menu hambúrguer, né, que é aquele menu- 
+
+Speaker 2
+A lupa que precisa, não? 
+
+Speaker 1
+Não precisa, porque vai ter só um input lá e é isso, busca os produtos e o resto é tudo JavaScript pra caramba. E o principal, tem que ser bonito, né? Você tem que fazer um sistema bonito. Então, cês vão colocar o nome do estabelecimento e vão colocar também o nome do sistema, beleza? Então, tipo como se fosse um PDV de su-supermercado, né? Só que normalmente eu em vez de digitar o nome do produto e tal, eu leio no código de barras. Então, e-essa base que eu tô dando a vocês é justamente pensando na possibilidade de vocês futuramente chegarem no mercadinho do bairro ou no mercado grande, quem sabe, né, tiver um contato bom, né, falar: "pô, é, eu tenho um PDV aqui pra cê testar e tal, faz um teste aí no caixa aí e tal, né. 
+
+Speaker 1
+PDV, pô, bem bacana, bem completo", e aí vai lá e testa, né. Como? Só aprendendo as bibliotecas de leitura de có-código de barras, que pega acesso da câmera, enfim, tudo mais, né. É, é difícil, mas não é, né. Mas vocês não vão precisar disso nesse projeto, vocês vão precisar só do código de barras em si, beleza? Alguma dúvida? 
+
+Speaker 2
+Como que a gente vai fazer isso todo mundo junto? 
+
+Speaker 1
+Ah, boa. É, tá vendo? Isso também não deu tempo. Triste. Triste. Mas tá bom. Qualquer coisa a gente tira a dúvida sobre isso na terça-feira, tá? Aliás, de tudo que cês quiserem, cês podem tirar dúvida na terça-feira. 
+
+Speaker 2
+Mas a gente pode usar o grupo de WhatsApp pra se falar? 
+
+Speaker 1
+Então, isso que eu ia falar. Vocês podem usar o grupo do WhatsApp, não precisa nem criar outro grupo, usa esse mesmo grupo aí, né. É, é bom que eu fico vendo lá cês trabalhando, né. Vocês podem usar o Discord, tá? E vocês devem usar o GitHub. Eu queria mostrar o GitHub pra vocês, tá? Mas eu até falei pra Rafa, isso é um outro curso, praticamente, o GitHub, né. Mas pra estrutura que cês precisam é tranquilo, porque basicamente cês vão criar os diretórios, né, e aí vocês vão dar a responsabilidade. 
+
+Speaker 1
+Por exemplo: "ah, isso aqui vai ficar com o diretório. Não, esse diretório aqui fica comigo". E um não mexe no do outro, que senão vai dar B. O, né? Mas todo mundo verifica o de todo mundo, tá? Outra coisa interessante desse exercício, tá, é que... Gente, vai-- e-eu acho que nessa turma não existe muito isso não, porque primeiro que é pequena e segundo que tá todo mundo de boa, tá todo mundo bem. Mas va-- se tiver um amiguinho que tá com mais dificuldade, você tá com mais dificuldade, mais facilidade numa coisa, se dividam direitinho, tá? 
+
+Speaker 1
+Tipo, pô, JavaScript, tô me garantindo bem. Pô, HTML, tô me garantindo melhor. Pô, eu acho que eu mando bem no CSS. Se dividam direitinho. Não é que você só tem que fazer uma coisa. Não, todo mundo vai trabalhar em tudo, né. Mas, por exemplo, pô, tô com dificuldade de fazer qualquer coisa, HTML, CSS, JavaScript. Minimamente, cê vai poder buscar as fotos, criar descrições do produto. Não falei de descrição, tá? Tem que ter descrição também do produto. Criar descrições do produto, criar os códigos, né, deixar um texto todo pronto lá e falar: "aí, ó, pum, HTML, só, só adicionar agora", tá? Então assim, porque é trabalhoso, é trabalhoso, né. 
+
+Speaker 1
+É, esse projeto é portfólio de vocês. Se o projeto ficar legal, e vai, não tem a opção de não ficar, né, va-- ele vai pra nossa página. Pro nosso site. Eu coloco lá no PudCria como po-portfólio com direito a nome de vocês, certinho. Se cês quiserem até tirar uma foto do grupo, a gente tira a foto do grupo e falar: "ah, esse grupo aqui criou esse site e tal", né, que serve como portfólio pessoal de vocês, tá? Então assim, isso, isso é muito positivo, tá? Muito posi-- vocês não têm noção o quanto na área de programação o portfólio é importante. 
+
+Speaker 1
+É mais importante do que qualquer outra coisa, porque se você chegar numa entrevista, o, o cara vai te perguntar: "qual é o teu portfólio?" Ou seja, o que você construiu, quem é você na fila do pão, né? E aí cê vai falar: "ó, construí isso aqui, esse sistema aqui", blá-blá-blá, explicar tudo, né. E vocês podem até melhorar futuramente, até com acesso no GitHub. Então, GitHub, Discord, né, dúvidas na terça-feira, que cês vão ter muitas, mas tendo dúvidas ou não, né, vocês têm condições de começar, com toda certeza. Outra coisa que eu quero falar, eu falei que eu ia falar pelo menos uns dez minutos aí. Outra coisa que eu quero falar, é, não é a última aula, eu costumo fazer isso na, na última aula, mas vou dar essa moral, tá? 
+
+Speaker 1
+Porque... Vinte e três? Não, gente. 
+
+Speaker 2
+Não foi nem o tempo que chegou. 
+
+Speaker 1
+Tá no vinte? Então vamo pro dezessete. 
+
+Speaker 2
+Que isso véi. 
+
+Speaker 1
+Tá com calor? É... 
+
+Speaker 2
+Não pode parar não. Posso de-parar aqui e já falo... 
+
+Speaker 1
+Não, não, eu vou- 
+
+Speaker 2
+Ah, tá. 
+
+Speaker 1
+Não, pode, se quiser pode parar, mas, mas pode deixar o áudio, porque vale pra todos, inclusive quem não veio hoje, vacilão, né. É, vacilones, né, Marília e Daniele, né. Gente, é, eu não sei se vocês pararam pra pensar nisso, e eu nem lembro, na verdade, qual a data que o curso começou. Alguém sabe o dia que a gente começou ou não? Mas não tem um mês, ou se tiver um mês, tem um mês, tipo, pouquíssimos dias, né, mas eu acho que não tem um mês. É, no, na primeira aula eu perguntei se vocês programavam. 
+
+Speaker 1
+Todo mundo falou que não, né. Cês pararam pra pensar que hoje vocês programam? Num curso que cês fazem duas vezes por semana, tá, dedicaram aí um mês da vida de vocês, vocês se tornaram programadores e programadoras, tá? Cês programam, agora todo mundo programa. Cês entendem a estrutura, entendem HTML, entendem CSS, entendem JavaScript, cês tão na frente de muita gente, tá? Então, confiança, tá? Parabenizar vocês aí pelo que vocês, pelo que vocês fizeram. 
+
+Speaker 1
+Cês tão muito bem, de verdade. Eu tô muito confiante no que cês vão fazer. Não à toa eu passei um projeto mais difícil, tá? Os outros projetos eram o site de uma pizzaria, o site de uma hamburgueria, que não é fácil, né. Tinha tudo isso, cartão, verificação e tal, mas o de vocês é mais chato porque é difícil visualizar e pensar o sistema. Inclusive, a dica aí é que vocês até possam olhar, de repente, vai no mercado, presta atenção no sisteminha lá de caixa, entendeu? Pra pegar um bizu, uma dica e tal. Podem então pesquisar na internet, sistema de PDV, enfim. É, eu quero parabenizar vocês, tá, de verdade. 
+
+Speaker 1
+Não é a última aula, eu costumo fazer isso só na última aula, só depois de dar o esporro do projeto final, enfim. É, mas eu acho que vocês merecem esse parabéns hoje, tá? Vocês foram extremamente assíduos durante o curso, né. Vocês se dedicaram, se esforçaram, estudaram em casa, é raríssimo, é raríssimo eu perceber numa turma que o pessoal tá estudando em casa. E vocês estudaram, cês fizeram o trabalho de casa, pô. Tanto que hoje eu deixei outro trabalho pra vocês aí. E um trabalho chato, difícil, né. No caso a Karen já até fez, né, tirou onda. 
+
+Speaker 1
+Vai ter que inventar coisa pra fazer em casa. Entendeu? Então assim, parabéns, gente. Parabéns. Eu quero que vocês saibam, e se alguém aí disser que não, é mentira, tá? Eu, como professor de programação já há dez anos na minha vida aí, afirmo que vocês são programadores, que vocês são programadores, tá? Então, cês podem falar: "ah, cê programa?" Programa. Eu sou programador. Eu programo. É isso que cês têm pra falar, beleza? Falem aí pra caramba. 
+
+Speaker 2
+Lindo! 
+
