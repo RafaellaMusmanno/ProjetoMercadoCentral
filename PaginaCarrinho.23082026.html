@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StyleCSS.23082026.css">
+
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css">
+
+    <title>Carrinho</title>
+</head>
+
+<body>
+
+<div class="Inicio">
+
+         <a href="PaginaInicial.23082026.html">
+         <img src="Logo.png" alt="Logo" class="logo">
+         </a>
+    
+     <div class="barraDePesquisa">
+        <input type="text" id="searchInput" placeholder="Buscar produto..." oninput="buscarProduto()">
+     </div> 
+     
+ <!-- ATENÇÃO!!!: As paginas vão ter que sempre ser alterada pelo ultimo nome salvo pra funcionar o botao -->
+ 
+    <div class="carrinho" style="text-align: right; padding: 10px 20px;">
+        <i class="fi fi-rr-home"></i>
+        <a href="PaginaInicial.23082026.html" style="color: white; text-decoration: none; font-weight: bold;">Início</a>
+        <i class="fi fi-rr-shopping-cart"></i>
+        <a href="PaginaCarrinho.23082026.html" style="color:white; text-decoration: none; font-weight: bold;">Carrinho</a>
+        <i class="fi fi-rr-user"></i>
+        <a href="PaginaContato.23082026.html" style="color: white; text-decoration: none; font-weight: bold;">Contato</a>
+   
+    </div>
+    </div>
+    <div id="listaProdutos" class="container-produtos"></div>
+
+<header class="paginaCarrinho">
+    <h1>🛒 Meu Carrinho</h1>
+    <p>Confira os produtos antes de finalizar sua compra.</p>
+</header>
+
+<!-- CONTEÚDO PRINCIPAL -->
+<main class="carrinho-container">
+
+    <!-- PRODUTOS DO CARRINHO -->
+    <section class="produtos-carrinho">
+        <h2 style="color: rgb(10, 124, 71);">Produtos selecionados</h2>
+
+        <div class="listaCarrinho container-produtos"></div><br>
+
+        <button type="button" id="limparCarrinho">Limpar carrinho</button>
+    </section>
+
+    <!-- RESUMO DA COMPRA -->
+    <aside class="resumo-compra">
+        <h2>Resumo da compra</h2>
+        <hr>
+
+        <div class="total-compra">
+            <span>Total</span>
+            <strong id="totalCarrinho">R$ 0,00</strong> 
+        </div><br>
+
+        <!-- FORMA DE PAGAMENTO -->
+    
+            <button 
+                type="button" 
+                class="botao-finalizar"
+                onclick="finalizarCompra()">
+                Finalizar compra
+            </button>
+    
+    </aside>
+
+</main>
+
+
+ <footer><!--O FOOTER PRECISA ESTAR NO FINAL DE CADA PÁGINA, ELE É A ÚLTIMA LINHA DO CÓDIGO ALÉM DO SCRIPT-->
+        <div class="footer">
+            <h3>Mercearia Central</h3>
+
+            <p>Endereço: Rua das Palmeiras, 245 – Bairro Jardim das Flores – Niterói/RJ – CEP 24.220-000</p>
+            <p>Telefone: (21) 98765-4321</p>
+            <p>WhatsApp: (21) 99123-4567</p>
+            <p>E-mail: contato@merceariacentral.com.br</p>
+            <p>CNPJ: 12.345.678/0001-90</p>
+            <p>Inscrição Estadual: 123.456.789.000</p>
+
+            <p><strong>Horário de funcionamento:</strong></p>
+            <p>Segunda a sábado: 07h às 20h</p>
+            <p>Domingo: 08h às 13h</p>
+
+            <div class="footer-social">
+                <a href="https://instagram.com" target="_blank">
+                    <span class="fi fi-brands-instagram"></span>
+                </a>
+                <a href="https://maps.google.com" target="_blank">
+                    <span class="fi fi-rr-marker"></span>
+                </a> 
+                </div>
+                <div class="footer-mapa">
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7351.773099213242!2d-43.08947561271972!3d-22.880648964375965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99847c20114f51%3A0x5b4e34fabe4d7115!2sAcademia%20Smart%20Fit%20-%20Fonseca!5e0!3m2!1spt-BR!2sbr!4v1787693835725!5m2!1spt-BR!2sbr" width="450" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+            </div>
+            <p class="DescriçãoFooter">&copy; 2026 Mercearia Central. Todos os direitos reservados.</p>
+        </div>
+    
+    </footer>
+
+    
+    <script src="produtos.js"></script>
+    <script src="JavaPagamento.js"></script>
+    <script src="Java.js"></script>
+    
+
+    </body>
+    </html>
