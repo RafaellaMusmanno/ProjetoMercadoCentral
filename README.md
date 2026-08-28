@@ -1,6 +1,6 @@
 # 🛒 Mercearia Central — Sistema PDV
 
-Projeto final em grupo do curso **Recode - Transforma Futuros**, simulando um **sistema de Ponto de Venda (PDV)** para um mercado de bairro fictício. Desenvolvido com HTML, CSS e JavaScript puro (vanilla JS).
+Projeto final em grupo do curso Plataforma Urbana Digital - Web Desenvolvimento, simulando um **sistema de Ponto de Venda (PDV)** para um mercado de bairro fictício. Desenvolvido com HTML, CSS e JavaScript puro (vanilla JS).
 
 > ⚠️ Loja, produtos e dados (CNPJ, endereço, telefone etc.) são **totalmente fictícios**, criados apenas para fins didáticos.
 
