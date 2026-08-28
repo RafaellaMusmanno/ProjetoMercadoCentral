@@ -47,7 +47,9 @@ Publicado no site da PudCria com o nome da equipe *(link aqui)*.
 
 ## 👥 Equipe
 
-*(adicionar nomes dos integrantes do grupo)*
+Karen Marques
+Rafaella Musmanno
+Thais Freitas
 
 ## 📌 Observações
 
